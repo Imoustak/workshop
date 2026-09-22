@@ -32,7 +32,7 @@ variable "vcs" {
     type       = "GITHUB"
     enterprise = false
     namespace  = "Imoustak"
-    id         = "github-enterprise-default-integration"
+    id         = "spacelift-workshop"
   }
 }
 
@@ -42,7 +42,7 @@ variable "aws_integration_id" {
 
   # CHANGE ME: specific to the Spacelift account this was built in. Find yours
   # under Cloud integrations in the Spacelift UI.
-  default = "AWS_INTEGRATION_ID=01M343EDTBMJBG35GSTDR25NP0"
+  default = "01M343EDTBMJBG35GSTDR25NP0"
 }
 
 variable "kubectl_version" {
