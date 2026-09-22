@@ -30,7 +30,7 @@ variable "vcs" {
   # Note that enterprise = false targets github.com instead of GitHub Enterprise.
   default = {
     type       = "GITHUB"
-    enterprise = false
+    enterprise = true
     namespace  = "Imoustak"
     id         = "spacelift-workshop"
   }
