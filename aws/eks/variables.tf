@@ -34,7 +34,7 @@ variable "cluster_admin_principal_arns" {
 
   # CHANGE ME: points at the AWS account this workshop was built in. Replace with
   # your own principals or you will not be able to reach the cluster.
-  default = ["arn:aws:iam::247747705325:user/emin"]
+  default = ["arn:aws:iam::495599747895:role/code-editor-CodeEditorInstanceBootstrapRole-DpJP5HpolP2Q"]
 }
 
 ################################################################################
@@ -114,7 +114,7 @@ variable "argocd_admin_user_names" {
 
   # CHANGE ME: an Identity Center user from the account this was built in. With no
   # valid member here nobody can get into the Argo CD UI.
-  default = ["eminalemdar"]
+  default = ["workshop-user"]
 }
 
 variable "argocd_admin_sso_group_ids" {

@@ -16,5 +16,5 @@ metadata:
 type: Opaque
 stringData:
   name: in-cluster
-  server: "arn:aws:eks:eu-west-1:247747705325:cluster/workshop"
+  server: "arn:aws:eks:eu-west-1:495599747895:cluster/workshop"
   project: default

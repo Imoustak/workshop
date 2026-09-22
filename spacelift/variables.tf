@@ -30,8 +30,8 @@ variable "vcs" {
   # Note that enterprise = false targets github.com instead of GitHub Enterprise.
   default = {
     type       = "GITHUB"
-    enterprise = true
-    namespace  = "eminalemdar"
+    enterprise = false
+    namespace  = "Imoustak"
     id         = "github-enterprise-default-integration"
   }
 }
@@ -42,7 +42,7 @@ variable "aws_integration_id" {
 
   # CHANGE ME: specific to the Spacelift account this was built in. Find yours
   # under Cloud integrations in the Spacelift UI.
-  default = "01HCY7118NC0NWCZ0QTJKK8WB7"
+  default = "AWS_INTEGRATION_ID=01M343EDTBMJBG35GSTDR25NP0"
 }
 
 variable "kubectl_version" {
